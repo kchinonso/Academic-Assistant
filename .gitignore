@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Google Credentials & Secrets
+service-account*.json
+client_secret*.json
+*.pem
+*.key
+
+# WhatsApp Web Session & Cache
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Runtime Data and Indexes
+data/
+downloads/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
